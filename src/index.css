@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav__container {
+  background-color: rgb(216, 146, 41);
+  border: 0.5px solid white;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px 0px #4f4f4f;
+  margin-top: 4px;
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__container ul {
+  display: flex;
+  list-style: none;
+  padding-top: 11px;
+}
+.nav__container ul li {
+  padding-left: 2vw;
+  text-decoration: none;
+}
+
+.not__found {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__container {
+  border: 0.5px solid aquamarine;
+  padding: 1vw;
+  width: 80%;
+}
+.from__input {
+  width: 80%;
+  border: 0.1px solid black;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.adduser__container {
+  border: 1px solid aqua;
+  border-radius: 5px;
+  padding: 2vw;
+}
