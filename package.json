@@ -17,9 +17,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start:dev": "react-scripts start",
-    "json-server": "json-server --watch db.json --port 3001",
-    "start": "concurrently \"npm start:dev\" \"npm run json-server\"",
+    "start": "react-scripts start",
+    "json-server": "json-server --watch db.json --port 3009",
+    "start:dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
